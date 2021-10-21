@@ -124,7 +124,7 @@ body > * {
 }
 
 body {
-    background-image: url("");
+    background-image: url("../img/Home/home.jpg");
    
     background-position: center;
     background-attachment: fixed;
