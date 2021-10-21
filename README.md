@@ -2,12 +2,11 @@
 ## Purpose
 The purpose of this portfolio site is to showcase my skills, projects, work history, and to a certain degree my personality to potential employers, collaborators and clients. It needs to do this in a functional, well laid out, clear and concise manner.
 ## Website Preview
-### Home Section
+# Index Page
 ![home page](https://user-images.githubusercontent.com/89718255/138226561-4e2c7a6b-94d7-4d60-a923-93d3c8468f5d.PNG)
 ### About Section
 ![WhatsApp Image 2021-10-21 at 12 20 02 PM](https://user-images.githubusercontent.com/89718255/138226693-aa6b4519-c6de-41d0-bfa2-86648cfeabb6.jpeg)
-- What to Expect
-![WhatsApp Image 2021-10-21 at 12 20 03 PM](https://user-images.githubusercontent.com/89718255/138226769-8ed687a8-4753-491d-bda2-fed78a725522.jpeg)
+
 - FAQ's
 ![Frequently Asked Questions](https://user-images.githubusercontent.com/89718255/138227289-d4242e4e-28c0-40cd-9e1c-f6c33f501beb.PNG)
   - FAQ-1
@@ -25,12 +24,12 @@ The purpose of this portfolio site is to showcase my skills, projects, work hist
   - FAQ-7
 ![FAQ7](https://user-images.githubusercontent.com/89718255/138227036-209f6c97-3aac-479e-bb7d-533fe872a82b.PNG)
 
-### Team Section
+# Team Page
 ![WhatsApp Image 2021-10-21 at 12 23 53 PM](https://user-images.githubusercontent.com/89718255/138227627-0de066e3-cf9d-495a-bfb0-ae14de68877b.jpeg)
 - Members
   ![cards](https://user-images.githubusercontent.com/89718255/138234099-e964298e-9499-48d5-a983-e4bcd2648a4c.PNG)
 
-### Events Section
+# Events Page
 ![events](https://user-images.githubusercontent.com/89718255/138227435-318ef63c-d3da-412b-95bb-3c524b05fe79.PNG)
   - Past Events
   ![Events Section](https://user-images.githubusercontent.com/89718255/138227443-528c6081-4958-4935-91b0-e8f6b84b47df.PNG)
