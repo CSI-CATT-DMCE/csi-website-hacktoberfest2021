@@ -1,6 +1,4 @@
 # CSI-DMCE Website
-## Purpose
-The purpose of this portfolio site is to showcase my skills, projects, work history, and to a certain degree my personality to potential employers, collaborators and clients. It needs to do this in a functional, well laid out, clear and concise manner.
 ## Website Preview
 # Index Page
 ![home page](https://user-images.githubusercontent.com/89718255/138226561-4e2c7a6b-94d7-4d60-a923-93d3c8468f5d.PNG)
