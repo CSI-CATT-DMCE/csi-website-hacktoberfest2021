@@ -1,5 +1,4 @@
 # CSI-DMCE Website
-
 ## Website Preview
 # Index Page
 ![home page](https://user-images.githubusercontent.com/89718255/138226561-4e2c7a6b-94d7-4d60-a923-93d3c8468f5d.PNG)
