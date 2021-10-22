@@ -69,5 +69,5 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 #### Step 3
 - 🔃 Create a new pull request.
 ## Maintainers
--  <a href = "">name1<a>
--  <a href = "">name2<a>
+-  <a href = "https://github.com/darshikapongallu">Darshika Pongallu<a>
+-  <a href = "https://github.com/Karan2310">Karandeep Singh<a>
