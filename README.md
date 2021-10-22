@@ -69,4 +69,4 @@ The purpose of this portfolio site is to showcase my skills, projects, work hist
 #### Step 3
 - 🔃 Create a new pull request.
 # Maintainer
-Darshika Pongallu
+Darshika Pongallu and Karandeep Singh
