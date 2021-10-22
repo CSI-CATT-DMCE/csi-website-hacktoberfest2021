@@ -68,3 +68,5 @@ The purpose of this portfolio site is to showcase my skills, projects, work hist
 - Seprate file for each Section(must contain Header, Footer and Contact us)
 #### Step 3
 - 🔃 Create a new pull request.
+# Maintainer
+Darshika Pongallu
