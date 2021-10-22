@@ -68,5 +68,6 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 - Seprate file for each Section(must contain Header, Footer and Contact us)
 #### Step 3
 - 🔃 Create a new pull request.
-# Maintainer
-Darshika Pongallu and Karandeep Singh
+## Maintainers
+-  <a href = "">name1<a>
+-  <a href = "">name2<a>
