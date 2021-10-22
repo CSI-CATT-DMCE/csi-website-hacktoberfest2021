@@ -1,6 +1,6 @@
 # CSI-DMCE Website
 ## Link to Portfolio
-The published portfolio site can be found <a href = "https://csi-catt-dmce.github.io/csi-website-hacktoberfest2021/">here.<a>
+The published CSI-DMCE(Hacktoberfest) site can be found <a href = "https://csi-catt-dmce.github.io/csi-website-hacktoberfest2021/">here.<a>
 ## Website Preview
 # Index Page
 ![home page](https://user-images.githubusercontent.com/89718255/138226561-4e2c7a6b-94d7-4d60-a923-93d3c8468f5d.PNG)
