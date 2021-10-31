@@ -1,0 +1,38 @@
+body>* {
+    font-family: 'Google Sans', sans-serif !important;
+    color: #0e174a !important;
+}
+
+body {
+    background-image: url('../img/Team/b11.jpg') !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    background-color: #111;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8025f5;
+    border-radius: 2px;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tab-links[data-tab-target] {
+    cursor: pointer;
+    background-color: #8025f5;
+    color: #fff;
+}
+
+card-img-top {
+    overflow: hidden;
+}
