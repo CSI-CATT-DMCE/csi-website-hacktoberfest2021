@@ -147,7 +147,7 @@
                                 <div class=" col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5 ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width: 20rem; ">
                                         <div class="container border-dark m-0 p-0">
-                                            <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png" alt="Card image cap" onClick="enlargeImg();">
+                                            <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png" alt="Card image cap" onClick="resizeImg();">
                                         </div>
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Full stack Development</h5>
@@ -159,7 +159,7 @@
                                 <!-- second card -->
                                 <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5 tab-content ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width: 20rem;height:auto; ">
-                                        <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png " alt="Card image cap ">
+                                        <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png " alt="Card image cap " onClick="resizeImg();">
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Full stack Development</h5>
                                             <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -170,7 +170,7 @@
                                 <!-- third card -->
                                 <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5 tab-content ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width:20rem; ">
-                                        <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png " alt="Card image cap">
+                                        <img class="card-img-top img-fluid " src="assets/img/Event/FullStack Web Development.png " alt="Card image cap" onClick="resizeImg();">
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Full stack Development</h5>
                                             <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -190,7 +190,7 @@
                                 <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5  ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width: 20rem; ">
                                         <div class="container border-dark m-0 p-0 ">
-                                            <img class="card-img-top img-fluid " src="assets/img/Event/Profile Building Workshop.jpg " alt="Card image cap">
+                                            <img class="card-img-top img-fluid " src="assets/img/Event/Profile Building Workshop.jpg " alt="Card image cap" onClick="resizeImg();">
                                         </div>
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Profile Building Workshop</h5>
@@ -202,7 +202,7 @@
                                 <!-- second card -->
                                 <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5  ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width: 20rem;height:auto; ">
-                                        <img class="card-img-top img-fluid " src="assets/img//Event/Profile Building Workshop.jpg " alt="Card image cap ">
+                                        <img class="card-img-top img-fluid " src="assets/img//Event/Profile Building Workshop.jpg " alt="Card image cap " onClick="resizeImg();">
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Profile Building Workshop</h5>
                                             <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -213,7 +213,7 @@
                                 <!-- third card -->
                                 <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center p-5  ">
                                     <div class="card shadow-lg p-3 mb-5 bg-body rounded " style="width:20rem; ">
-                                        <img class="card-img-top img-fluid " src="assets/img/Event/Profile Building Workshop.jpg " alt="Card image cap ">
+                                        <img class="card-img-top img-fluid " src="assets/img/Event/Profile Building Workshop.jpg " alt="Card image cap " onClick="resizeImg();">
                                         <div class="card-body border-dark border-top border-3 ">
                                             <h5 class="card-title ">Profile Building Workshop</h5>
                                             <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -494,6 +494,7 @@
         </script>
         <script>
             const img = document.querySelectorAll('.card-img-top');
+            const y = document.querySelectorAll('.card-img-top');
             // Set image size to 1.5 times original
             img.forEach(x => {
                 x.addEventListener('click', () => {
@@ -502,9 +503,19 @@
                     x.style.transition = "transform 0.25s ease";
 
                 })
-
-
             })
+
+            function resizeImg() {
+                const img = document.querySelectorAll('.card-img-top');
+                img.forEach(x => {
+                    x.addEventListener('click', () => {
+                        x.style.transform = "scale(1)";
+                        // Animation effect 
+                        x.style.transition = "transform 0.25s ease";
+
+                    })
+                })
+            }
         </script>
         <!-- tab swapping js starts -->
         <script>
@@ -538,7 +549,7 @@
 
             })
         </script>
-        <!-- tab swappin js ends -->
+        // tab swapping end
         <script>
             const scriptURL =
                 'https://script.google.com/macros/s/AKfycbwnUWrY8gzGqbVZ4on6-hsPAbms8khQltLrV85cqOmO6kQklv0/exec'
