@@ -33,6 +33,21 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
-card-img-top {
+.card{
+    border-radius: 10px !important;
     overflow: hidden;
+}
+
+.col-md-4 .container img{
+transition: 0.5s ease-out;
+}
+
+.col-md-4 .container img:hover{
+transform: scale(1.1);
+}
+
+.col-md-4 .container{
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
 }
